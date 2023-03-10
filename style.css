@@ -1,0 +1,109 @@
+body {
+  background-color: rgba(253, 253, 253, 0.259);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./Images/fondGout-1500.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#contenair{
+        display:flex;
+        justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(11, 11, 11);
+  justify-content: center;
+  align-content: center;
+  margin: 10%;
+  border-radius: 5px;
+  /* border: 10px solid rgba(174, 221, 240, 0.759); */
+}
+img{width: 100%; height:auto; border-radius: 3px;}
+
+h1, h2,h3, p, td, label{color: aliceblue;}
+h1, h2{margin: 5px;}
+h1 {font-size: 3em;}
+h2 {font-size: 1em; font-weight: normal;}
+h3 {font-size: 1em;}
+h4 {font-size: 2em;}
+label{padding: top 5px ;
+    font-size: 1em;}
+
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 5em;
+  }
+    h2 {
+    font-size: 3em;
+  }
+    td,h3 {
+    font-size: 2em;
+  }
+
+}
+
+#top{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#topG{
+    flex-basis: 43% ;
+    margin:1%;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#topD{
+    flex-basis:50%;
+    margin-bottom: 5px;
+
+}
+
+#bottom{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+/* #tform{size:10} */
+
+
+#bottomG{
+    display: flex;
+    flex-basis:50%;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+}
+#bottomG img{width: 80%; height:auto;}
+
+#bottomD{
+    flex-basis:50%;
+    display: flex;
+    flex-direction:column;
+    /* background-color: aquamarine; */
+}
+
+
+#BottomDB{
+    width:90%;
+}
+
+
+table{
+    table-layout: auto;
+    width: 100%; 
+}
+
+table img{width:60px;}
